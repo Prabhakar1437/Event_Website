@@ -1,7 +1,6 @@
 import app from "./app.js";
 
-import path from "path";
-__dirname = path.resolve();
+import {dirname} from "path";
 
 if(process.env.NODE_ENV === "production"){
   app.use(express.static(path.join(__dirname, "/client/build")));
