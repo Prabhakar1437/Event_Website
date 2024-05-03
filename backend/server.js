@@ -1,6 +1,8 @@
 import app from "./app.js";
-
+import express from "express";
 import {dirname} from "path";
+const app = express();
+app.use(express.json());
 
 if(process.env.NODE_ENV === "production"){
   app.use(express.static(path.join(__dirname, "/client/build")));
