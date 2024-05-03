@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "cd backend && npm i && cd ../frontend && npm i && npm run build",
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "dev": "nodemon server.js"
   },
   "author": "",
