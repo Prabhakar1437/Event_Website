@@ -1,6 +1,6 @@
 import app from "./app.js";
 
-const path= require("path");
+import path from "path";
 __dirname = path.resolve();
 
 if(process.env.NODE_ENV === "production"){
