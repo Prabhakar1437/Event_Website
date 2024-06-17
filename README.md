@@ -1,1 +1,1 @@
-Event Website using HTML CSS and JS
+Event Website using HTML CSS and JavaScript
